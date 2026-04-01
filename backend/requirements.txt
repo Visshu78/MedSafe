@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+httpx
+python-multipart
+rapidfuzz
+transformers
+torch
+sentencepiece
+protobuf

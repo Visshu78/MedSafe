@@ -1,0 +1,306 @@
+[
+  {
+    "drug_a": "Warfarin",
+    "drug_b": "Aspirin",
+    "severity": "critical",
+    "mechanism": "Additive anticoagulant and antiplatelet effect",
+    "effect": "Greatly increased risk of serious bleeding including internal hemorrhage",
+    "action": "Avoid this combination. If both are necessary, use the lowest possible doses under strict medical supervision with regular INR monitoring."
+  },
+  {
+    "drug_a": "Warfarin",
+    "drug_b": "Ibuprofen",
+    "severity": "critical",
+    "mechanism": "NSAIDs displace warfarin from protein binding and inhibit platelet aggregation",
+    "effect": "Severely increased bleeding risk and gastrointestinal hemorrhage",
+    "action": "Avoid NSAIDs with warfarin. Use Paracetamol for pain relief instead."
+  },
+  {
+    "drug_a": "Warfarin",
+    "drug_b": "Diclofenac",
+    "severity": "critical",
+    "mechanism": "NSAID displaces warfarin, increases anticoagulant effect",
+    "effect": "Very high bleeding risk",
+    "action": "Do not combine. Switch to Paracetamol for pain."
+  },
+  {
+    "drug_a": "Warfarin",
+    "drug_b": "Naproxen",
+    "severity": "critical",
+    "mechanism": "NSAID-warfarin interaction causing displacement and platelet inhibition",
+    "effect": "Critical bleeding risk",
+    "action": "Avoid. Use Paracetamol instead."
+  },
+  {
+    "drug_a": "Warfarin",
+    "drug_b": "Ciprofloxacin",
+    "severity": "critical",
+    "mechanism": "Ciprofloxacin inhibits Warfarin metabolism via CYP1A2",
+    "effect": "INR rises sharply, bleeding risk increases 2-3x",
+    "action": "Monitor INR closely. Reduce Warfarin dose with antibiotic course."
+  },
+  {
+    "drug_a": "Warfarin",
+    "drug_b": "Amiodarone",
+    "severity": "critical",
+    "mechanism": "Amiodarone strongly inhibits CYP2C9 and CYP3A4, major enzymes for Warfarin metabolism",
+    "effect": "INR can triple within 1-2 weeks, life-threatening bleeding",
+    "action": "Reduce Warfarin dose by 30-50%. Monitor INR weekly for 6-8 weeks."
+  },
+  {
+    "drug_a": "Warfarin",
+    "drug_b": "Azithromycin",
+    "severity": "moderate",
+    "mechanism": "Azithromycin may enhance warfarin effect via gut flora changes",
+    "effect": "Increased INR, elevated bleeding risk",
+    "action": "Monitor INR closely during and after antibiotic course."
+  },
+  {
+    "drug_a": "Ramipril",
+    "drug_b": "Spironolactone",
+    "severity": "critical",
+    "mechanism": "Both increase potassium retention. Combined effect causes severe hyperkalemia",
+    "effect": "Dangerous potassium buildup (hyperkalemia) causing cardiac arrest",
+    "action": "Monitor potassium levels weekly. Avoid in CKD patients."
+  },
+  {
+    "drug_a": "Enalapril",
+    "drug_b": "Spironolactone",
+    "severity": "critical",
+    "mechanism": "ACE inhibitor + potassium-sparing diuretic causes hyperkalemia",
+    "effect": "Life-threatening high potassium causing cardiac arrhythmia",
+    "action": "Regular potassium blood tests mandatory. Dose adjustment required."
+  },
+  {
+    "drug_a": "Losartan",
+    "drug_b": "Spironolactone",
+    "severity": "critical",
+    "mechanism": "ARB + aldosterone antagonist synergistically increases serum potassium",
+    "effect": "Severe hyperkalemia, cardiac arrest risk",
+    "action": "Monitor potassium every 2 weeks. Avoid in kidney disease."
+  },
+  {
+    "drug_a": "Metformin",
+    "drug_b": "Furosemide",
+    "severity": "moderate",
+    "mechanism": "Furosemide can impair kidney function, reducing Metformin clearance",
+    "effect": "Increased risk of Metformin accumulation causing lactic acidosis",
+    "action": "Monitor kidney function regularly. Reduce Metformin dose if eGFR drops."
+  },
+  {
+    "drug_a": "Digoxin",
+    "drug_b": "Furosemide",
+    "severity": "critical",
+    "mechanism": "Furosemide causes potassium loss (hypokalemia), increasing Digoxin toxicity",
+    "effect": "Digoxin toxicity — nausea, visual disturbances, dangerous arrhythmias",
+    "action": "Monitor potassium and Digoxin levels. Consider potassium supplements."
+  },
+  {
+    "drug_a": "Digoxin",
+    "drug_b": "Hydrochlorothiazide",
+    "severity": "critical",
+    "mechanism": "Thiazide causes hypokalemia, enhancing Digoxin toxicity at normal doses",
+    "effect": "Digoxin toxicity with risk of fatal arrhythmia",
+    "action": "Check Digoxin levels and serum potassium regularly."
+  },
+  {
+    "drug_a": "Digoxin",
+    "drug_b": "Amiodarone",
+    "severity": "critical",
+    "mechanism": "Amiodarone raises Digoxin levels by 70-100% via P-glycoprotein inhibition",
+    "effect": "Digoxin toxicity — dangerous heart rhythm abnormalities",
+    "action": "Reduce Digoxin dose by 50% when starting Amiodarone. Monitor levels weekly."
+  },
+  {
+    "drug_a": "Aspirin",
+    "drug_b": "Ibuprofen",
+    "severity": "critical",
+    "mechanism": "Ibuprofen blocks Aspirin's access to COX-1, negating its cardioprotective platelet effect",
+    "effect": "Aspirin's heart-protective effect is cancelled, increasing cardiac event risk",
+    "action": "Take Aspirin at least 2 hours before Ibuprofen. Use Paracetamol as alternative."
+  },
+  {
+    "drug_a": "Aspirin",
+    "drug_b": "Clopidogrel",
+    "severity": "moderate",
+    "mechanism": "Dual antiplatelet therapy — additive bleeding effect",
+    "effect": "Increased bleeding risk, GI hemorrhage",
+    "action": "Usually intentional for cardiac patients. Add stomach protection (PPI). Monitor for unusual bleeding."
+  },
+  {
+    "drug_a": "Atorvastatin",
+    "drug_b": "Amiodarone",
+    "severity": "moderate",
+    "mechanism": "Amiodarone inhibits CYP3A4, increasing Atorvastatin plasma levels",
+    "effect": "Increased risk of myopathy and muscle breakdown (rhabdomyolysis)",
+    "action": "Limit Atorvastatin to 20mg/day when on Amiodarone. Watch for muscle pain."
+  },
+  {
+    "drug_a": "Simvastatin",
+    "drug_b": "Amiodarone",
+    "severity": "critical",
+    "mechanism": "Amiodarone severely inhibits Simvastatin metabolism, levels rise 5-10x",
+    "effect": "High risk of rhabdomyolysis — severe muscle breakdown that can damage kidneys",
+    "action": "Switch to Rosuvastatin or Pravastatin which are not metabolized by CYP3A4."
+  },
+  {
+    "drug_a": "Atorvastatin",
+    "drug_b": "Rosuvastatin",
+    "severity": "moderate",
+    "mechanism": "Same drug class — duplicate statin therapy",
+    "effect": "No added benefit, increased myopathy risk",
+    "action": "Use only one statin. Consult cardiologist for optimal choice."
+  },
+  {
+    "drug_a": "Metoprolol",
+    "drug_b": "Amiodarone",
+    "severity": "moderate",
+    "mechanism": "Amiodarone inhibits CYP2D6 increasing Metoprolol levels, both slow heart rate",
+    "effect": "Severe bradycardia (dangerously slow heart rate), heart block",
+    "action": "Monitor heart rate. Reduce Metoprolol dose. Regular ECG."
+  },
+  {
+    "drug_a": "Atenolol",
+    "drug_b": "Amiodarone",
+    "severity": "moderate",
+    "mechanism": "Additive AV node slowing effect",
+    "effect": "Risk of symptomatic bradycardia and heart block",
+    "action": "Monitor pulse daily. Avoid if resting heart rate is already below 60."
+  },
+  {
+    "drug_a": "Ciprofloxacin",
+    "drug_b": "Metronidazole",
+    "severity": "moderate",
+    "mechanism": "Both prolong QT interval at the cardiac level",
+    "effect": "QT prolongation leading to potentially fatal arrhythmia (Torsades de Pointes)",
+    "action": "Avoid combining QT-prolonging drugs. ECG monitoring if combination is unavoidable."
+  },
+  {
+    "drug_a": "Ramipril",
+    "drug_b": "Ibuprofen",
+    "severity": "critical",
+    "mechanism": "NSAIDs reduce prostaglandin-mediated kidney protection and reduce ACE inhibitor antihypertensive effect",
+    "effect": "Acute kidney injury risk and loss of blood pressure control",
+    "action": "Avoid NSAIDs in patients on ACE inhibitors. Use Paracetamol for pain."
+  },
+  {
+    "drug_a": "Losartan",
+    "drug_b": "Ibuprofen",
+    "severity": "critical",
+    "mechanism": "NSAIDs antagonize ARB kidney protection and raise blood pressure",
+    "effect": "Kidney damage and hypertension worsening",
+    "action": "Replace NSAID with Paracetamol. Monitor kidney function."
+  },
+  {
+    "drug_a": "Metformin",
+    "drug_b": "Prednisolone",
+    "severity": "moderate",
+    "mechanism": "Corticosteroids raise blood glucose, opposing Metformin's action",
+    "effect": "Poor blood sugar control, hyperglycemia",
+    "action": "Monitor blood glucose more frequently. Diabetes medications may need dose increase."
+  },
+  {
+    "drug_a": "Glibenclamide",
+    "drug_b": "Ciprofloxacin",
+    "severity": "moderate",
+    "mechanism": "Ciprofloxacin enhances insulin secretion stimulated by sulfonylureas",
+    "effect": "Severe low blood sugar (hypoglycemia)",
+    "action": "Monitor blood glucose closely during antibiotic course. Reduce sulfonylurea dose if needed."
+  },
+  {
+    "drug_a": "Alprazolam",
+    "drug_b": "Metoprolol",
+    "severity": "moderate",
+    "mechanism": "CNS depressant effect of benzodiazepine combined with beta blocker causing hypotension",
+    "effect": "Dizziness, falls risk — especially dangerous in elderly",
+    "action": "Use lowest effective Alprazolam dose. Avoid in elderly prone to falls."
+  },
+  {
+    "drug_a": "Alprazolam",
+    "drug_b": "Clonazepam",
+    "severity": "critical",
+    "mechanism": "Two benzodiazepines — excessive CNS depression, respiratory suppression",
+    "effect": "Oversedation, respiratory depression, fall and fracture risk",
+    "action": "Never use two benzodiazepines together. Choose one and use at minimum dose."
+  },
+  {
+    "drug_a": "Allopurinol",
+    "drug_b": "Losartan",
+    "severity": "low",
+    "mechanism": "Losartan has mild uricosuric effect, potentially reducing need for Allopurinol",
+    "effect": "Possible interaction, no major harm",
+    "action": "Beneficial interaction for gout patients with hypertension. No action needed."
+  },
+  {
+    "drug_a": "Allopurinol",
+    "drug_b": "Ramipril",
+    "severity": "moderate",
+    "mechanism": "ACE inhibitors increase risk of allopurinol hypersensitivity reactions",
+    "effect": "Severe skin reactions (Stevens-Johnson syndrome) in rare cases",
+    "action": "Monitor for skin rash, especially in first few weeks of therapy."
+  },
+  {
+    "drug_a": "Colchicine",
+    "drug_b": "Atorvastatin",
+    "severity": "moderate",
+    "mechanism": "Both compete for CYP3A4 and P-glycoprotein; Colchicine levels can be elevated",
+    "effect": "Colchicine toxicity — severe muscle and nerve damage",
+    "action": "Use lowest effective Colchicine dose. Watch for muscle pain or weakness."
+  },
+  {
+    "drug_a": "Prednisolone",
+    "drug_b": "Ibuprofen",
+    "severity": "critical",
+    "mechanism": "Both steroids and NSAIDs damage stomach lining independently; combined effect is synergistic",
+    "effect": "High risk of gastric ulcer and GI bleeding",
+    "action": "Always add a PPI (Pantoprazole/Omeprazole) if both must be used. Avoid NSAID + steroid if possible."
+  },
+  {
+    "drug_a": "Prednisolone",
+    "drug_b": "Aspirin",
+    "severity": "moderate",
+    "mechanism": "Additive GI irritation; corticosteroids reduce Aspirin absorption",
+    "effect": "Increased GI bleeding risk",
+    "action": "Use Pantoprazole as stomach protection if this combination is needed."
+  },
+  {
+    "drug_a": "Levothyroxine",
+    "drug_b": "Calcium",
+    "severity": "moderate",
+    "mechanism": "Calcium binds to Levothyroxine in the gut, reducing its absorption",
+    "effect": "Reduced thyroid hormone absorption, undertreated hypothyroidism",
+    "action": "Take Levothyroxine on empty stomach. Space calcium dose by at least 4 hours."
+  },
+  {
+    "drug_a": "Levothyroxine",
+    "drug_b": "Pantoprazole",
+    "severity": "low",
+    "mechanism": "PPIs reduce stomach acid needed for Levothyroxine absorption",
+    "effect": "Slightly reduced thyroid hormone absorption",
+    "action": "Take Levothyroxine 30-60 minutes before breakfast, before any other medicine."
+  },
+  {
+    "drug_a": "Furosemide",
+    "drug_b": "Ramipril",
+    "severity": "moderate",
+    "mechanism": "Excessive BP drop (first-dose hypotension) when combining loop diuretic with ACE inhibitor",
+    "effect": "Dizziness, falls, fainting — especially dangerous in elderly",
+    "action": "Start ACE inhibitor at low dose. Monitor BP for 2 hours after first dose."
+  },
+  {
+    "drug_a": "Ciprofloxacin",
+    "drug_b": "Ondansetron",
+    "severity": "critical",
+    "mechanism": "Both prolong cardiac QT interval",
+    "effect": "Life-threatening cardiac arrhythmia (Torsades de Pointes)",
+    "action": "Avoid combination if possible. Choose alternative antibiotic. ECG monitoring mandatory."
+  },
+  {
+    "drug_a": "Amiodarone",
+    "drug_b": "Warfarin",
+    "severity": "critical",
+    "mechanism": "Amiodarone inhibits Warfarin metabolism",
+    "effect": "Life-threatening bleeding. INR can triple.",
+    "action": "Reduce Warfarin by 30-50%. Weekly INR checks for 2 months."
+  }
+]

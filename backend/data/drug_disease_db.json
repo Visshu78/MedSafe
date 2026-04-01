@@ -1,0 +1,212 @@
+{
+  "Asthma": [
+    {
+      "drug": "Atenolol",
+      "severity": "critical",
+      "reason": "Beta-blockers cause bronchoconstriction and can trigger severe asthma attacks",
+      "action": "Avoid all beta-blockers in asthma. Use Amlodipine or ACE inhibitor for hypertension instead."
+    },
+    {
+      "drug": "Metoprolol",
+      "severity": "critical",
+      "reason": "Non-selective beta-blockade worsens airway resistance",
+      "action": "Avoid. If a beta-blocker is essential, use Bisoprolol with extreme caution and close monitoring."
+    },
+    {
+      "drug": "Bisoprolol",
+      "severity": "moderate",
+      "reason": "Even cardioselective beta-blockers can worsen asthma at higher doses",
+      "action": "Use only if benefit outweighs risk. Start at lowest dose. Monitor breathing carefully."
+    },
+    {
+      "drug": "Carvedilol",
+      "severity": "critical",
+      "reason": "Non-selective beta-blocker — highly risky in asthma",
+      "action": "Avoid. Major contraindication."
+    },
+    {
+      "drug": "Aspirin",
+      "severity": "moderate",
+      "reason": "Aspirin-exacerbated respiratory disease (AERD) in ~10% of asthmatics — triggers attacks",
+      "action": "Perform Aspirin challenge test first. If sensitive, avoid Aspirin and all NSAIDs."
+    },
+    {
+      "drug": "Ibuprofen",
+      "severity": "moderate",
+      "reason": "NSAIDs can worsen asthma via COX inhibition",
+      "action": "Try Paracetamol instead. Avoid NSAIDs if Aspirin sensitivity is present."
+    }
+  ],
+  "CKD": [
+    {
+      "drug": "Metformin",
+      "severity": "critical",
+      "reason": "Metformin is renally cleared and accumulates in CKD causing fatal lactic acidosis",
+      "action": "Stop Metformin if eGFR < 30. Reduce dose if eGFR 30-45. Monitor kidney function every 3 months."
+    },
+    {
+      "drug": "Ibuprofen",
+      "severity": "critical",
+      "reason": "NSAIDs reduce renal blood flow via prostaglandin inhibition, rapidly accelerating CKD",
+      "action": "Strictly avoid all NSAIDs in CKD. Use Paracetamol (max 2g/day) for pain."
+    },
+    {
+      "drug": "Naproxen",
+      "severity": "critical",
+      "reason": "NSAID — same mechanism as Ibuprofen, acute kidney injury risk",
+      "action": "Contraindicated in CKD. Avoid completely."
+    },
+    {
+      "drug": "Diclofenac",
+      "severity": "critical",
+      "reason": "NSAID nephrotoxicity causing acute kidney injury on CKD background",
+      "action": "Avoid. Use Paracetamol for pain management."
+    },
+    {
+      "drug": "Allopurinol",
+      "severity": "moderate",
+      "reason": "Allopurinol and its metabolite oxipurinol accumulate in CKD, increasing toxicity risk",
+      "action": "Reduce Allopurinol dose based on eGFR. Consider Febuxostat as alternative."
+    },
+    {
+      "drug": "Spironolactone",
+      "severity": "moderate",
+      "reason": "Potassium retention worsened in CKD — risk of dangerous hyperkalemia",
+      "action": "Monitor potassium weekly. Avoid if potassium > 5.0 mEq/L."
+    },
+    {
+      "drug": "Hydrochlorothiazide",
+      "severity": "moderate",
+      "reason": "Thiazides are largely ineffective when eGFR < 30 and may worsen kidney function",
+      "action": "Switch to loop diuretic (Furosemide) for fluid management in advanced CKD."
+    }
+  ],
+  "Diabetes": [
+    {
+      "drug": "Prednisolone",
+      "severity": "critical",
+      "reason": "Corticosteroids cause severe insulin resistance and dramatic blood sugar spikes",
+      "action": "Monitor glucose 4x daily. Diabetes medications may need to be substantially increased."
+    },
+    {
+      "drug": "Hydrochlorothiazide",
+      "severity": "moderate",
+      "reason": "Thiazide diuretics impair glucose tolerance and worsen diabetes control",
+      "action": "Monitor blood glucose more frequently. Consider switching to Furosemide or Amlodipine."
+    },
+    {
+      "drug": "Furosemide",
+      "severity": "low",
+      "reason": "High-dose Furosemide can mildly impair glucose metabolism",
+      "action": "Monitor blood glucose. Usually manageable."
+    }
+  ],
+  "Hypertension": [
+    {
+      "drug": "Ibuprofen",
+      "severity": "critical",
+      "reason": "NSAIDs cause sodium and water retention, directly raising blood pressure by 3-5 mmHg on average",
+      "action": "Avoid regular NSAID use. Use Paracetamol for pain. Monitor BP."
+    },
+    {
+      "drug": "Diclofenac",
+      "severity": "critical",
+      "reason": "NSAID — same sodium-retaining mechanism, can cause treatment-resistant hypertension",
+      "action": "Avoid. Switch to Paracetamol."
+    }
+  ],
+  "CAD": [
+    {
+      "drug": "Diclofenac",
+      "severity": "critical",
+      "reason": "Diclofenac increases cardiovascular events — banned in many countries for CAD patients",
+      "action": "Avoid in CAD. Use Paracetamol for pain. If NSAID needed, Naproxen has better cardiac safety."
+    },
+    {
+      "drug": "Celecoxib",
+      "severity": "moderate",
+      "reason": "COX-2 inhibitors increase cardiac event risk",
+      "action": "Avoid if possible. If necessary, use lowest dose for shortest time."
+    }
+  ],
+  "Gout": [
+    {
+      "drug": "Hydrochlorothiazide",
+      "severity": "moderate",
+      "reason": "Thiazides reduce uric acid excretion, triggering gout attacks",
+      "action": "Switch antihypertensive to Losartan (which has mild uricosuric activity) or Amlodipine."
+    },
+    {
+      "drug": "Aspirin",
+      "severity": "moderate",
+      "reason": "Low-dose Aspirin competes with uric acid excretion, raising uric acid levels",
+      "action": "Continue Aspirin if needed for cardiac protection but increase Allopurinol dose accordingly."
+    },
+    {
+      "drug": "Furosemide",
+      "severity": "moderate",
+      "reason": "Loop diuretics raise uric acid levels by increasing reabsorption",
+      "action": "Monitor uric acid levels. May need to increase Allopurinol dose."
+    }
+  ],
+  "GERD": [
+    {
+      "drug": "Ibuprofen",
+      "severity": "critical",
+      "reason": "NSAIDs damage gastric mucosa and worsen acid reflux significantly",
+      "action": "Avoid NSAIDs. Use Paracetamol. Always take with full PPI cover if NSAID is unavoidable."
+    },
+    {
+      "drug": "Aspirin",
+      "severity": "moderate",
+      "reason": "Aspirin irritates the stomach lining, worsening GERD",
+      "action": "Use enteric-coated Aspirin. Take with food. Add Pantoprazole prophylactically."
+    },
+    {
+      "drug": "Prednisolone",
+      "severity": "moderate",
+      "reason": "Steroids reduce gastric mucosal protection",
+      "action": "Always co-prescribe a PPI when using corticosteroids in GERD patients."
+    }
+  ],
+  "Liver Disease": [
+    {
+      "drug": "Paracetamol",
+      "severity": "critical",
+      "reason": "Paracetamol is metabolized in the liver. Even normal doses cause liver damage in liver disease",
+      "action": "Reduce dose to max 1.5g/day. Avoid alcohol completely. Consider alternatives."
+    },
+    {
+      "drug": "Atorvastatin",
+      "severity": "moderate",
+      "reason": "Statins are metabolized in the liver and can worsen liver function",
+      "action": "Check liver enzymes before starting. Avoid if ALT > 3x normal."
+    },
+    {
+      "drug": "Metronidazole",
+      "severity": "moderate",
+      "reason": "Metronidazole is hepatically metabolized and accumulates in liver failure",
+      "action": "Reduce dose and frequency. Monitor liver function tests."
+    }
+  ],
+  "Heart Failure": [
+    {
+      "drug": "Ibuprofen",
+      "severity": "critical",
+      "reason": "NSAIDs cause sodium retention and vasoconstriction, severely worsening heart failure",
+      "action": "Strictly contraindicated in heart failure. Use Paracetamol for all pain management."
+    },
+    {
+      "drug": "Diclofenac",
+      "severity": "critical",
+      "reason": "NSAIDs worsen heart failure and increase hospitalization risk 2x",
+      "action": "Avoid. The risk of acute decompensation is very high."
+    },
+    {
+      "drug": "Verapamil",
+      "severity": "critical",
+      "reason": "Calcium channel blocker with negative inotropic effect worsens heart failure",
+      "action": "Contraindicated. Use Amlodipine if a CCB is needed."
+    }
+  ]
+}

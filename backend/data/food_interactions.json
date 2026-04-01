@@ -1,0 +1,155 @@
+[
+  {
+    "drug": "Warfarin",
+    "food": "Leafy green vegetables (spinach, kale, methi, palak)",
+    "severity": "critical",
+    "mechanism": "Green vegetables are rich in Vitamin K, which directly opposes Warfarin's blood-thinning effect",
+    "effect": "Warfarin becomes less effective, increasing clot risk",
+    "action": "Keep green vegetable intake consistent — do not suddenly increase or decrease. Monitor INR more frequently if diet changes.",
+    "hindi_food": "पालक, मेथी, सरसों के पत्ते (हरी सब्जियां)"
+  },
+  {
+    "drug": "Warfarin",
+    "food": "Ginger and garlic in large amounts",
+    "severity": "moderate",
+    "mechanism": "High-dose ginger/garlic have antiplatelet properties that add to Warfarin's effect",
+    "effect": "Increased bleeding tendency",
+    "action": "Moderate dietary use is fine. Avoid high-dose ginger/garlic supplements.",
+    "hindi_food": "अदरक और लहसुन (बड़ी मात्रा में)"
+  },
+  {
+    "drug": "Atorvastatin",
+    "food": "Grapefruit juice",
+    "severity": "critical",
+    "mechanism": "Grapefruit inhibits CYP3A4 enzyme that breaks down Atorvastatin, causing 2-5x higher blood levels",
+    "effect": "Statin toxicity — severe muscle breakdown (rhabdomyolysis) and kidney damage",
+    "action": "Avoid grapefruit and grapefruit juice completely while on Atorvastatin.",
+    "hindi_food": "चकोतरे का रस (Grapefruit juice)"
+  },
+  {
+    "drug": "Simvastatin",
+    "food": "Grapefruit juice",
+    "severity": "critical",
+    "mechanism": "CYP3A4 inhibition raises Simvastatin levels dramatically",
+    "effect": "High risk of myopathy and rhabdomyolysis",
+    "action": "Avoid grapefruit entirely. Switch to Rosuvastatin if grapefruit cannot be avoided.",
+    "hindi_food": "चकोतरे का रस"
+  },
+  {
+    "drug": "Levothyroxine",
+    "food": "Soy products and high-fiber foods",
+    "severity": "moderate",
+    "mechanism": "Soy and fiber bind to Levothyroxine in the gut, reducing absorption",
+    "effect": "Less thyroid hormone absorbed, undertreated hypothyroidism",
+    "action": "Take Levothyroxine 30-60 minutes before any food, including tea or coffee. Separate soy by 4 hours.",
+    "hindi_food": "सोया दूध, टोफू, और उच्च फाइबर खाद्य पदार्थ"
+  },
+  {
+    "drug": "Levothyroxine",
+    "food": "Tea and coffee (especially with milk)",
+    "severity": "moderate",
+    "mechanism": "Tannins and calcium in tea/coffee/milk reduce Levothyroxine absorption",
+    "effect": "Reduced thyroid hormone levels",
+    "action": "Take Levothyroxine with plain water only. Wait 30 minutes before morning tea/coffee.",
+    "hindi_food": "चाय, कॉफी (विशेषकर दूध के साथ)"
+  },
+  {
+    "drug": "Metformin",
+    "food": "Alcohol",
+    "severity": "critical",
+    "mechanism": "Alcohol impairs lactic acid metabolism. With Metformin, this dramatically increases lactic acidosis risk",
+    "effect": "Lactic acidosis — a medical emergency with high mortality",
+    "action": "Avoid alcohol completely while taking Metformin.",
+    "hindi_food": "शराब / अल्कोहल"
+  },
+  {
+    "drug": "Glibenclamide",
+    "food": "Alcohol",
+    "severity": "critical",
+    "mechanism": "Alcohol enhances sulfonylurea insulin release and also impairs gluconeogenesis",
+    "effect": "Severe prolonged hypoglycemia (dangerously low blood sugar)",
+    "action": "Avoid alcohol on Glibenclamide. Carry glucose tablets always.",
+    "hindi_food": "शराब / अल्कोहल"
+  },
+  {
+    "drug": "Glipizide",
+    "food": "Alcohol",
+    "severity": "critical",
+    "mechanism": "Same as Glibenclamide — alcohol potentiates hypoglycemic effect",
+    "effect": "Severe hypoglycemia",
+    "action": "Avoid alcohol. Monitor blood glucose closely.",
+    "hindi_food": "शराब / अल्कोहल"
+  },
+  {
+    "drug": "Ciprofloxacin",
+    "food": "Dairy products and calcium-fortified foods",
+    "severity": "moderate",
+    "mechanism": "Calcium chelates with Ciprofloxacin in the gut, forming an insoluble complex",
+    "effect": "Antibiotic absorption reduced by 30-40%, possible treatment failure",
+    "action": "Take Ciprofloxacin 2 hours before or 6 hours after dairy products.",
+    "hindi_food": "दूध, दही, पनीर, छाछ"
+  },
+  {
+    "drug": "Aspirin",
+    "food": "Alcohol",
+    "severity": "moderate",
+    "mechanism": "Both damage gastric mucosa. Alcohol also mildly prolongs bleeding time",
+    "effect": "Increased risk of stomach bleeding and ulcers",
+    "action": "Avoid alcohol with Aspirin. If unavoidable, use stomach-protection medicine (PPI).",
+    "hindi_food": "शराब / अल्कोहल"
+  },
+  {
+    "drug": "Ibuprofen",
+    "food": "Alcohol",
+    "severity": "critical",
+    "mechanism": "Both are gastrointestinal irritants and increase GI bleeding risk synergistically",
+    "effect": "High risk of gastric ulcer and GI hemorrhage",
+    "action": "Never combine NSAIDs with alcohol.",
+    "hindi_food": "शराब / अल्कोहल"
+  },
+  {
+    "drug": "Prednisolone",
+    "food": "Salt/sodium-rich foods",
+    "severity": "moderate",
+    "mechanism": "Corticosteroids cause sodium and water retention; high salt diet worsens this",
+    "effect": "Fluid retention, swelling, worsened hypertension",
+    "action": "Reduce dietary salt intake while on steroids. Eat less pickles, papad, processed foods.",
+    "hindi_food": "नमकीन खाना, अचार, पापड़, प्रसंस्कृत भोजन"
+  },
+  {
+    "drug": "Ramipril",
+    "food": "Potassium-rich foods (bananas, potatoes, coconut water)",
+    "severity": "moderate",
+    "mechanism": "ACE inhibitors elevate potassium; high dietary potassium adds to this risk",
+    "effect": "Dangerous hyperkalemia (high potassium) causing cardiac rhythm issues",
+    "action": "Monitor potassium levels. Moderate — do not overload on banana, coconut water, potatoes.",
+    "hindi_food": "केला, आलू, नारियल पानी (बड़ी मात्रा में)"
+  },
+  {
+    "drug": "Losartan",
+    "food": "Potassium-rich foods",
+    "severity": "moderate",
+    "mechanism": "ARBs elevate potassium. Excess dietary potassium with ARBs can cause hyperkalemia",
+    "effect": "Heart rhythm disturbances from high potassium",
+    "action": "Avoid potassium supplements. Moderate banana and coconut water intake.",
+    "hindi_food": "केला, आलू, नारियल पानी"
+  },
+  {
+    "drug": "Alprazolam",
+    "food": "Alcohol",
+    "severity": "critical",
+    "mechanism": "Both are CNS depressants. Combined they cause severe respiratory depression",
+    "effect": "Potentially fatal — extreme sedation, respiratory arrest",
+    "action": "Never drink alcohol while taking any benzodiazepine.",
+    "hindi_food": "शराब / अल्कोहल"
+  },
+  {
+    "drug": "Amlodipine",
+    "food": "Grapefruit juice",
+    "severity": "moderate",
+    "mechanism": "Grapefruit inhibits CYP3A4, raising Amlodipine levels",
+    "effect": "Excessive blood pressure lowering, dizziness, swollen ankles",
+    "action": "Avoid grapefruit juice. Eat regular fruits instead.",
+    "hindi_food": "चकोतरे का रस"
+  }
+]
