@@ -7,8 +7,8 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-LM_STUDIO_URL = "http://localhost:1234/v1/chat/completions"
-LM_STUDIO_TIMEOUT = 15.0  # seconds
+LM_STUDIO_URL = "http://192.168.56.1:2424/v1/chat/completions"
+LM_STUDIO_TIMEOUT = 30.0  # seconds
 
 SEVERITY_TEMPLATES = {
     "critical": "⚠️ CRITICAL: {effect} Do not continue without doctor approval.",
